@@ -10,4 +10,11 @@ public class tarefa {
     public String getDescricao() {
         return descricao;
     }
+
+    @Override
+    public String toString() {
+        return "tarefa{" +
+                "descricao='" + descricao + '\'' +
+                '}';
+    }
 }
